@@ -1,0 +1,83 @@
+﻿{"frames": [
+
+{
+	"filename": "body20000",
+	"frame": {"x":94,"y":2,"w":26,"h":21},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":26,"h":21},
+	"sourceSize": {"w":26,"h":21}
+}
+,{
+	"filename": "body30000",
+	"frame": {"x":94,"y":25,"w":25,"h":21},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":25,"h":21},
+	"sourceSize": {"w":25,"h":21}
+}
+,{
+	"filename": "foot20000",
+	"frame": {"x":2,"y":39,"w":11,"h":22},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":11,"h":22},
+	"sourceSize": {"w":11,"h":22}
+}
+,{
+	"filename": "foot30000",
+	"frame": {"x":15,"y":39,"w":10,"h":22},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":10,"h":22},
+	"sourceSize": {"w":10,"h":22}
+}
+,{
+	"filename": "hand20000",
+	"frame": {"x":27,"y":39,"w":8,"h":13},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":8,"h":13},
+	"sourceSize": {"w":8,"h":13}
+}
+,{
+	"filename": "hand30000",
+	"frame": {"x":37,"y":39,"w":8,"h":12},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":8,"h":12},
+	"sourceSize": {"w":8,"h":12}
+}
+,{
+	"filename": "hero10000",
+	"frame": {"x":48,"y":38,"w":43,"h":34},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":43,"h":34},
+	"sourceSize": {"w":43,"h":34}
+}
+,{
+	"filename": "hero20000",
+	"frame": {"x":2,"y":2,"w":44,"h":35},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":44,"h":35},
+	"sourceSize": {"w":44,"h":35}
+}
+,{
+	"filename": "hero30000",
+	"frame": {"x":48,"y":2,"w":44,"h":34},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":44,"h":34},
+	"sourceSize": {"w":44,"h":34}
+}],
+"meta": {
+	"app": "Adobe Flash Professional",
+	"version": "13.1.0.226",
+	"image": "parts.png",
+	"format": "RGBA8888",
+	"size": {"w":128,"h":128},
+	"scale": "1"
+}
+}

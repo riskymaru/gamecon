@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="btn.png">
+	<!-- Created with Adobe Flash Professional version 13.1.0.226 -->
+	<!-- http://www.adobe.com/products/flash.html -->
+	<SubTexture name="btn10000" x="2" y="2" width="60" height="61" pivotX="30.3" pivotY="30"/>
+	<SubTexture name="btn20000" x="2" y="65" width="61" height="60" pivotX="30.3" pivotY="30"/>
+	<SubTexture name="btn30000" x="64" y="2" width="60" height="61" pivotX="30.3" pivotY="30"/>
+	<SubTexture name="btn40000" x="2" y="127" width="60" height="61" pivotX="30.3" pivotY="30"/>
+</TextureAtlas>

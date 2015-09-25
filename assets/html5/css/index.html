@@ -1,0 +1,58 @@
+<html>
+<head>
+	<title>Dragon and Tiger</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/game.css">
+</head>
+
+<body>
+
+	<div class="top-header">
+    <a class="pull-left user-link" href="#"><span id="datetime">17 September 2014 11:16:11 GMT+8</span></a>
+    
+    <div class="right-balance">
+        <ul>
+            <li>
+                <a class="user-link" href="#">Playable Balance
+                    <span id="balance" class="balance">
+                       1000.00
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a class="available_balance pull-right">
+                    <img src="assets/images/refresh_icon.png" title="Refresh" />
+                </a>    
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+<div class="header">
+    <img src="assets/images/logo.png"/>
+
+    <div class="pull-right">
+        
+        <nav>
+            <div id="menu-icon"></div>
+            <ul class="menu-list">
+                <li><a id="link-statement" class="header-link" href="#">Statement</a></li>
+                <li><a id="link-balance" class="header-link"  href="#">Balance</a></li>
+                <li><a id="link-rules" class="header-link" href="#">Game Guide</a></li>
+                <li><a id="link-help" class="header-link" href="#">Help</a></li>
+            </ul>
+        </nav>
+
+    </div>
+</div>
+	
+
+	<div id="game_canvas"></div>
+	<script type="text/javascript"  src="assets/js/lib/phaser.js"></script>
+	<script type="text/javascript" data-main="assets/js/usr/dt_app" src="assets/js/lib/require.js"></script>
+</body>
+</html>

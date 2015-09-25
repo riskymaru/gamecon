@@ -1,0 +1,215 @@
+/**
+ * game css
+ */
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 09 17, 14, 10:52:03 AM
+    Author     : raffy.cor
+*/
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+body, html {
+
+	padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #151515;
+    font-family: Roboto;
+    overflow: auto;
+}
+
+.top-header {
+    height: 20px;
+    background-color: #000000;
+    color: #ddd;
+    padding: 6px 10px;
+}
+.header {
+    1min-height: 90px;
+    background-color: transparent;
+    background-image: url('../menu/nav_bg.png');
+    background-repeat: no-repeat;
+    border: none;
+    background-position: center center;
+}
+.header > img {
+    width: 62%;
+    max-width:  200px;
+}
+.header a {
+    color: #ddd;
+    text-decoration: none;
+    padding: 3px 5px;
+    display: inline-block;
+    font-family: Tahoma;
+    font-size: 14px;
+    margin: 5px 15px;
+}
+.header a:hover {
+    color: gold;
+}
+.header > .pull-right {
+    padding: 23px 5px;
+}
+
+.user-link {
+    color: #ccc;
+    font-family: 'Open sans', 'Tahoma', sans-serif;
+    font-weight: 200;
+    background-color: transparent;
+    transition: all .5s;
+    font-size: 14px;
+    outline: none;
+    text-decoration: none;
+    background: transparent;
+}
+.pull-left {
+    float: left;
+}
+.pull-right {
+    float: right;
+}
+.nav-header {
+    text-align: center;
+    background-color: #600001;
+    color: #eee;
+    margin: 0;
+    padding: 7px 0;
+    font-size: 13px;
+    font-weight: 700;
+}
+.nav-item {
+    text-align: center;
+    color: #eee;
+    margin: 0;
+    padding: 7px 0;
+    font-size: 14px;
+}
+
+
+#menu-icon {
+    display: none;
+    width: 40px;
+    height: 40px;
+    background: url(../menu/menu-icon.png) center;
+    border: 1px solid gold;
+}
+
+.active-menu {
+    border-radius: 4px 4px 4px 4px;
+    background-color: rgba(0,0,0,0.5) !important;
+}
+
+ul.menu-list {
+    display: block;
+    list-style: none;
+    background-color: rgba(0,0,0,0.9);
+}
+
+ul.menu-list li {
+    display: inline-block;
+    float: left;
+}
+
+.d2 {
+    display: block;
+}
+
+.right-balance {
+    float: right;
+}
+
+.right-balance li {
+    display: inline-block;
+    float: left;
+}
+
+.right-balance li a.user-link {
+    margin-top: 4px;
+    display: block;
+}
+
+
+@media only screen and (max-width : 640px) {
+
+    #menu-icon {
+        display:inline-block;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    ul.menu-list li {
+        display: inline-block;
+        float: left;
+        padding: 10px
+    }
+
+    ul.menu-list { 
+        display: none;
+        position: absolute;
+        width: 100%;
+        top: 110px;
+        right: 0px;
+    }
+
+    nav li {
+        text-align: center;
+        width: 100%;
+        padding: 10px 0;
+        margin: 0;
+        border-bottom: 1px solid #192132;
+    }
+
+    .header > .pull-right {
+        padding: 13px 6px !important;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 320px) {
+
+    ul {
+        list-style: none;
+    }
+
+    .right-balance {
+        float: left;
+        width: 100%;
+    }
+    .top-header {
+        height: 30px;
+    }
+
+   /* .pull-right {
+        padding: 10px 5px !important;
+    }*/
+
+    .header > .pull-right {
+        padding: 13px 6px !important;
+    }
+
+}
+
+#game_canvas{
+	margin: auto;
+	display: block;
+    image-rendering: optimizeSpeed;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+    max-width: 1366px;
+	/*max-height: 768px;*/
+
+}
