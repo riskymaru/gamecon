@@ -76,7 +76,7 @@ GBA.Preloader.prototype = {
             this.state.start('sample');
             trace('sample')
 
-            GBA.req_data(GBA)
+           // GBA.req_data(GBA)
         }
     },
     create: function(){
